@@ -12,6 +12,7 @@ const fruitSchema = new mongoose.Schema({
 
 const fruit = mongoose.model('fruit', fruitSchema);
 
+// input data tunggal
 // const apple = new fruit({
 //   name: 'Apple',
 //   rating: 8,
@@ -26,6 +27,7 @@ const fruit = mongoose.model('fruit', fruitSchema);
 //   }
 // });
 
+// input data banyak
 const kiwi = new fruit({
   name: 'Kiwi',
   rating: 10,
